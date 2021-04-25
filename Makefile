@@ -1,0 +1,6 @@
+install:
+    apt update -y && apt upgrade -y
+    apt install nodejs -y
+    npm install express
+    npm install path
+    npm install child_process
